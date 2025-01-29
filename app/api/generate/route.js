@@ -3,7 +3,6 @@ import clientPromise from "@/lib/mongodb"
 
 export async function POST(request) {
 
-    console.log("in api/generate")
 
     const body = await request.json() 
     const client = await clientPromise;
